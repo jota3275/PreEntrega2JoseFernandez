@@ -1,26 +1,41 @@
-body
-    {
-        background-color: lightgray;
-    }
+    /* Header */
 .header
     {
         height: 20%;
         background-color: rgb(51, 51, 51);
     }
-    img
+    .logo
         {
-        height: 90%;
-        width: 30%;
-        margin-left: 50%;
+            height: 90%;
+            width: 25%;
+            display: block;
+            margin-left: 65%;
         }
     .botones
         {
             text-align: end;
         }
+        /* Main ingresar*/
+#main2
+    {
+        height: 100%;
+        background:linear-gradient(rgba(211, 211, 211, 0.6) , rgba(211, 211, 211, 0.6)) , url(https://th.bing.com/th/id/OIP.ENr88IwUhFc9zEQNUWBXoQHaHa?pid=ImgDet&w=179&h=179&c=7&dpr=1,3) ;
+        background-repeat: repeat;
+    }
+    #contenedor2
+        {
+            margin: auto auto;
+            width: 30%;
+            background-color: rgb(51, 51, 51);
+            color: white;
+            padding: auto;            
+        }
+    /* Main index */
 .main
     {
-        background-color: lightgray;
-        height: 300%;
+        background:linear-gradient(rgba(211, 211, 211, 0.6) , rgba(211, 211, 211, 0.6)) , url(https://th.bing.com/th/id/OIP.ENr88IwUhFc9zEQNUWBXoQHaHa?pid=ImgDet&w=179&h=179&c=7&dpr=1,3) ;
+        background-repeat: repeat;
+        height: 260%;
         align-items: center;
         text-align: center;
         padding-left: 4%;
@@ -35,6 +50,7 @@ body
         {
             width: 70%;
             height: 185px;
+            background-size: cover;
         }
     #texto1
         {
@@ -43,7 +59,10 @@ body
     #contenedores1
         {
             height: 45%;
+            background-color: rgb(51, 51, 51);
+            color: white;
         }
+        /* Footer */
 .footer
     {
         height: 20%;
