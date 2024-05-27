@@ -15,7 +15,7 @@
         {
             text-align: end;
         }
-        /* Main ingresar*/
+        /* Main ingresar y Registrarte*/
 #main2
     {
         height: 100%;
@@ -26,6 +26,15 @@
         {
             margin: auto auto;
             width: 30%;
+            background-color: rgb(51, 51, 51);
+            color: white;
+            padding: auto;            
+        }
+    #contenedor3
+        {
+            margin: auto auto;
+            width: 40%;
+            height: 70%;
             background-color: rgb(51, 51, 51);
             color: white;
             padding: auto;            
@@ -68,3 +77,16 @@
         height: 20%;
         background-color: rgb(51, 51, 51);
     }
+    #redes
+        {
+            display: block;
+            width: 25px;
+            height:  25px;
+        }
+    .copy
+        {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }

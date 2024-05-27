@@ -1,105 +1,100 @@
 <html>
     <head>
-        <title>  Berlinesas  </title>
-        <link rel="stylesheet" href="../css/style.css">
+        <title>  Chureria El Topo  </title>
         <link rel="icon" href="../assets/check2.ico">
+        <link rel="stylesheet" href="../css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        
     </head>
-<body class="contenedorprincipal">
-    <div class="contenedortitulo">
-        <div class="logo">
-            <a href="https://es.wikipedia.org/wiki/Churro" target="_blank"> <img src="../assets/logo.jpeg">  </a>
+<body>
+    <div class="container-fluid">
+         <!-- Header -->
+         <div class="row header">
+            <div class="col-md-8 p-2">
+                <a class="logo" href="../index.html"><img src="../assets/topo.png" class="img-fluid "></a>
+            </div>
         </div>
-        <div class="titulo">
-            <h1 class="t1">
-                Berlinesas
-            </h1>
+
+        <!-- Main -->
+        <div class="row" id="main2">
+            <form class="row g-3 rounded" id="contenedor3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Lavalle 1144">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Depto, Piso, Casa</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="6 b">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Caba">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Barrio</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>----</option>
+                    <option>Colegiales</option>
+                    <option>Nuñez</option>
+                    <option>Caballito</option>
+                    <option>Belgrano</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Acepto Terminos y Condiciones
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Registrarme</button>
+                </div>
+              </form>
+        </div>
+
+        <!-- Footer -->
+        <div class="row footer">
+            <div class="col-md-12">
+                <div class="my-2">
+                    <ul class="nav justify-content-center border-bottom pb-3">
+                        <li class="nav-item" >
+                            <a href="https://www.instagram.com/" target="_blank" target="_blank" class="nav-link px-2 " >
+                                <img id="redes" src="../assets/i1.png" >
+                            </a>
+                        </li>
+                        <li class="nav-item" >
+                            <a href="https://x.com/" target="_blank" class="nav-link px-2 " >
+                                <img id="redes" src="../assets/t1.png" >
+                            </a>
+                        </li>
+                        <li class="nav-item" >
+                            <a href="https://es-la.facebook.com/" target="_blank" class="nav-link px-2 " >
+                                <img id="redes" src="../assets/f1.png" >
+                            </a>
+                        </li>
+                        <li class="nav-item" >
+                            <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=es&ifkv=AaSxoQzC_7mDqnJnBq93i3LdFbQi0VUTie08jtwI4UsAoIlJ1Nx6Kvy3pLCYzyZpmJg9npvSqQgu&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S33600794%3A1716843330191102&ddm=0#__utma=29003808.729126657.1716843325.1716843325.1716843325.1&__utmb=29003808.0.10.1716843325&__utmc=29003808&__utmx=-&__utmz=29003808.1716843325.1.1.utmcsr=bing|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=18752890" target="_blank" class="nav-link px-2 " >
+                                <img id="redes" src="../assets/email.png" >
+                            </a>
+                        </li>
+                      
+                    </ul>
+                    <p class="text-center text-light copy " id="copy">&copy; 2024 ChurreriaElTopo, S.R.L.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="contenedorbarra">
-        <div class="barra">
-            <a href="../index.html">   Inicio  </a>
-            <br>
-            <a href="../pages/Churros.html"> Churros </a>
-            <br>
-            <a href="../pages/berlinesas.html">   Berlinesas </a>
-        </div>
-        <div class="informacion">
-            <h1 class="arriba">
-                Ingredientes
-            </h1>
-            <h3 class="izq">
-                <ul>
-                    <li>
-                        500 g de harina 0000
-                    </li>
-                    <li>
-                        100 ml de leche
-                    </li>
-                    <li>
-                        25 g de levadura fresca (o 10 g de levadura seca)
-                    </li>
-                    <li>
-                        2 huevos
-                    </li>
-                    <li>
-                        125 g de manteca
-                    </li>
-                    <li>
-                        100 g de azúcar
-                    </li>
-                    <li>
-                        1 cucharadita de esencia de vainilla
-                    </li>
-                    <li>
-                        Ralladura de limón
-                    </li>
-                    <li>
-                        Dulce de leche (para rellenar)
-                    </li>
-                </ul>
-            </h3>
-            <h1>
-                Preparacion
-            </h1>
-            <h3 class="izq">
-                <ol>
-                    <li>
-                        En un bol, mezcla la leche, la levadura desmenuzada (si usas levadura fresca) y unas 2 cucharadas de harina del total.
-                        Revuelve para integrar y tapa el bol. Deja reposar en un lugar tibio y sin corrientes de aire hasta que duplique su volumen.
-                    </li>
-                    <li>
-                        En otro bol, coloca el resto de la harina y haz un hueco en el centro. A los costados, coloca el azúcar, y en el centro, agrega los huevos, la esencia de vainilla y la ralladura de limón.
-                        También añade la esponja leudada. Bate todo con un tenedor para integrar bien.
-                    </li>
-                    <li>
-                        Agrega la manteca y sigue batiendo hasta obtener una masa homogénea. La masa será un poco pegajosa, ¡pero no te preocupes!
-                    </li>
-                    <li>
-                        Cubre la masa con un paño y deja reposar en un lugar cálido hasta que duplique su tamaño.
-                    </li>
-                    <li>
-                        Amasa ligeramente sobre una superficie enharinada y forma bollos del tamaño deseado. Puedes hacer bolas de fraile o pan de leche.
-                    </li>
-                    <li>
-                        Si optas por las bolas de fraile, fríelas en aceite caliente hasta que estén doradas. Escúrrelas sobre papel absorbente.
-                    </li>
-                    <li>
-                        Si prefieres el pan de leche, colócalas en una bandeja y hornéalas a 180°C durante aproximadamente 20 minutos o hasta que estén doradas.
-                    </li>
-                    <li>
-                        Una vez listas, rellénalas con dulce de leche y ¡a disfrutar!
-                    </li>
-                </ol>
-            </h3>
-        </div>
-    </div>
-    <div class="piedepag">
-        <h4>
-            Contactenos
-        </h4>
-        <a class="iconos" href="https://www.instagram.com/instagram/"  target="_blank"> <img src="../assets/Insta.ico"></a>
-        <a class="iconos" href="https://www.facebook.com/facebook/"  target="_blank"> <img src="../assets/face.ico"></a>
-        <a class="iconos" href="https://twitter.com/x/"  target="_blank"> <img src="../assets/twitter.ico"></a>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
