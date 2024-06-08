@@ -2,13 +2,13 @@
 
 body
 {
-    min-height: 100%;
+    min-height: $alto-maximo;
     background: $color-fondo ;
 }
 // Header
 .header
 {
-height: 20%;
+height: calc($alto-maximo / 5) ;
 background-color: $color-primario ;
 }
 #logo
@@ -16,14 +16,14 @@ background-color: $color-primario ;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: $alto-maximo;
     width: 60%;
     
     
 }
 .logo
 {
-    height: 90%;
+    height: calc($alto-maximo - 10%) ;
     width: 25%;
     display: block;
     margin-left: 65%;
@@ -45,7 +45,7 @@ height: $alto-maximo ;
 {
     margin: auto auto;
     width: 30%;
-    background-color: rgb(51, 51, 51);
+    background-color: $color-primario;
     color: white;
     padding: auto;            
 }
@@ -53,15 +53,15 @@ height: $alto-maximo ;
 {
     margin: auto auto;
     width: 40%;
-    height: 70%;
-    background-color: rgb(51, 51, 51);
+    height: calc($alto-maximo - 30%);
+    background-color: $color-primario;
     color: white;
     padding: auto;            
 }
 // Main Index
 .main
 {
-height: 300%;
+height: calc($alto-maximo * 3);
 align-items: center;
 text-align: center;
 padding-left: 4%;
@@ -69,9 +69,9 @@ margin-top: 5%;
 padding-right: 4%;
 }
 #cardbody
-        {
-            height: 200%;
-        }
+    {
+        height: calc($alto-maximo * 2);
+    }
 #imgcard1
 {
     width: 70% !important;
@@ -85,14 +85,14 @@ padding-right: 4%;
 {
     height: 950px;
     padding-top: 5%;
-    background-color: rgb(51, 51, 51);
+    background-color: $color-primario;
     color: white;
 }
 // Footer
 .footer
 {
-height: 20%;
-background-color: rgb(51, 51, 51);
+height: calc($alto-maximo - 80%);
+background-color: $color-primario;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -167,9 +167,11 @@ justify-content: center;
         {
             font-size: smaller;
         }
-    .header
+    header
         {
-            position: static;
+            position: sticky;
+            top: 0%;
+            z-index: 20;
         }
     #contenedor2
         {
@@ -195,7 +197,7 @@ justify-content: center;
 }
         
         // Vista Media
-@media screen and (min-width: 768px) and (max-width: 1049px)
+@media screen and (min-width: 768px) and (max-width: 1250px)
     {
     #contenedor2
         {
