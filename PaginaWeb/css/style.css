@@ -1,193 +1,167 @@
-    body
-        {
-            min-height: 100%;
-            background:linear-gradient(rgba(211, 211, 211, 0.6) , rgba(211, 211, 211, 0.6)) , url(../assets/fondo.png) ;
-        }
-    /* Header */
-.header
-    {
-        height: 20%;
-        background-color: rgb(51, 51, 51);
-    }
-    #logo
-        {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            width: 60%;
-            
-            
-        }
-    .logo
-        {
-            height: 90%;
-            width: 25%;
-            display: block;
-            margin-left: 65%;
-        }
-    #botones
-        {
-            text-align: end;
-            display: flex;
-            align-items: center;
-            justify-content: end;
-            
-        }
-        /* Main ingresar y Registrarte*/
-#main2
-    {
-        height: 100%;        
-    }
-    #contenedor2
-        {
-            margin: auto auto;
-            width: 30%;
-            background-color: rgb(51, 51, 51);
-            color: white;
-            padding: auto;            
-        }
-    #contenedor3
-        {
-            margin: auto auto;
-            width: 40%;
-            height: 70%;
-            background-color: rgb(51, 51, 51);
-            color: white;
-            padding: auto;            
-        }
-    /* Main index */
-.main
-    {
-        height: 300%;
-        align-items: center;
-        text-align: center;
-        padding-left: 4%;
-        margin-top: 5%;
-        padding-right: 4%;
-    }
-    #cardbody
-                {
-                    height: 200%;
-                }
-    #imgcard1
-        {
-            width: 70% !important;
-            height: 25% !important;                        
-        }
-    #texto1
-        {
-            text-align: left;
-        }
-    #contenedores1
-        {
-            height: 45%;
-            padding-top: 5%;
-            background-color: rgb(51, 51, 51);
-            color: white;
-        }
-        /* Footer */
-.footer
-    {
-        height: 20%;
-        background-color: rgb(51, 51, 51);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #redes
-        {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 25px;
-            height:  25px;
-        }
-    .copy
-        {
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
-        }
+body {
+  min-height: 100%;
+  background: linear-gradient(rgba(211, 211, 211, 0.6), rgba(211, 211, 211, 0.6)), url(../assets/fondo.png);
+}
 
-        /* Vista celular */
+.header {
+  height: 20%;
+  background-color: rgb(51, 51, 51);
+}
 
-    @media screen and (max-width: 480px)
-        {
-            #logo
-                {
-                    width: 50%;
-                    height: 100%;
-                   
-                }
-            #botones
-                {
-                    width: 50%;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-            .logo
-                {
-                    height: 100%;
-                    width: 50%;                 
-                }
-            main
-                {
-                    height: 500%;
-                    overflow: scroll;
-                }    
-            .main
-                {
-                    height: 500%;
-                    
-                }
-            #contenedor1
-                {
-                    height: 20%;
-                    padding-top: 3%;
-                }
-            #principal
-                {
-                    height: 55% !important;
-                    padding: 0 !important;
-                }
-            #cardbody
-                {
-                    
-                    height: 55% !important;
-                    overflow: auto;
-                    padding: 0 !important;
-                }
-            #texto1
-                {
-                    font-size: smaller;
-                }
-            .header
-                {
-                    position: static;
-                }
-            #contenedor2
-                {
-                    width: 50%;
-                }
-            #contenedor3
-                {
-                    width: 80%;
-                    height: 100%;
-                }
-            #main2
-                {
-                    height:120% ;  
-                }
-            #center
-                {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }                             
-        }
-    
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 60%;
+}
+
+.logo {
+  height: 90%;
+  width: 25%;
+  display: block;
+  margin-left: 65%;
+}
+
+#botones {
+  text-align: end;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#main2 {
+  height: 100%;
+}
+
+#contenedor2 {
+  margin: auto auto;
+  width: 30%;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: auto;
+}
+
+#contenedor3 {
+  margin: auto auto;
+  width: 40%;
+  height: 70%;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: auto;
+}
+
+.main {
+  height: 300%;
+  align-items: center;
+  text-align: center;
+  padding-left: 4%;
+  margin-top: 5%;
+  padding-right: 4%;
+}
+
+#cardbody {
+  height: 200%;
+}
+
+#imgcard1 {
+  width: 70% !important;
+  height: 25% !important;
+}
+
+#texto1 {
+  text-align: left;
+}
+
+#contenedores1 {
+  height: 45%;
+  padding-top: 5%;
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+.footer {
+  height: 20%;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
+
+.copy {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  #logo {
+    width: 50%;
+    height: 100%;
+  }
+  #botones {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    height: 100%;
+    width: 50%;
+  }
+  .main {
+    height: 500%;
+    padding-top: 5%;
+    display: inline-block;
+    unicode-bidi: normal;
+  }
+  #contenedor1 {
+    height: 20%;
+    padding-top: 3px;
+  }
+  #principal {
+    height: 55% !important;
+    padding: 0 !important;
+  }
+  #cardbody {
+    height: 55% !important;
+    overflow: auto;
+    padding: 0 !important;
+  }
+  #texto1 {
+    font-size: smaller;
+  }
+  .header {
+    position: static;
+  }
+  #contenedor2 {
+    width: 50%;
+  }
+  #principal {
+    padding-top: 3%;
+  }
+  #contenedor3 {
+    width: 80%;
+    height: 100%;
+  }
+  #main2 {
+    height: 120%;
+  }
+  #center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
