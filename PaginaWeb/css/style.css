@@ -4,6 +4,9 @@ body {
 }
 
 #filtro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 268px;
   height: 100%;
   transition: 0.25s;
@@ -26,7 +29,17 @@ body {
   width: 60%;
 }
 
+#mg {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 90%;
   width: 25%;
   display: block;
@@ -158,9 +171,15 @@ body {
     align-items: center;
     justify-content: center;
   }
+  #mg {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .logo {
     height: 100%;
-    width: 50%;
+    width: 50% !important;
   }
   .main {
     flex-flow: column;
